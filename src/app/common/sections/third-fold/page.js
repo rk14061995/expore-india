@@ -1,148 +1,95 @@
 export default function ServicesSecond(props) {
     const destinationData = [
         {
-            heading: "Explore the Scottish Highlands",
-            text: "Discover the breathtaking beauty of the Scottish Highlands with our exclusive tour packages. Experience rugged landscapes, serene lochs, and charming villages surrounded by nature's wonders.",
+            heading: "Explore the Beauty of the Himalayas",
+            text: "Experience the majestic landscapes of the Indian Himalayas. Visit destinations like Leh-Ladakh, Himachal Pradesh, and Uttarakhand for breathtaking mountain views, adventure sports, and serene monasteries.",
         },
         {
-            heading: "Beach Getaways in Cornwall",
-            text: "Relax on the stunning beaches of Cornwall, famous for its golden sands and crystal-clear waters. Enjoy water sports, coastal walks, and a laid-back atmosphere in one of the UK's most scenic locations.",
+            heading: "Beach Getaways in Goa",
+            text: "Relax on the golden beaches of Goa, famous for its vibrant nightlife, water sports, and Portuguese heritage. Enjoy the perfect mix of adventure and relaxation in this coastal paradise.",
         },
         {
-            heading: "Cultural Tours in London",
-            text: "Immerse yourself in the vibrant culture and history of London with our guided tours. Visit iconic landmarks like the Tower of London, Buckingham Palace, and explore world-class museums, galleries, and theaters.",
+            heading: "Cultural Tours in Delhi",
+            text: "Immerse yourself in the rich history and heritage of Delhi. Explore iconic landmarks like the Red Fort, Qutub Minar, India Gate, and experience the bustling streets of Chandni Chowk.",
         },
         {
-            heading: "Adventure Packages in Wales",
-            text: "For the thrill-seekers, our adventure packages in Wales offer everything from hiking in Snowdonia to kayaking in the Brecon Beacons. Experience the wild beauty of this diverse landscape.",
+            heading: "Adventure Packages in Rishikesh",
+            text: "For the thrill-seekers, Rishikesh offers white-water rafting, bungee jumping, trekking, and camping along the Ganges. It’s also a hub for yoga and meditation retreats.",
         },
         {
-            heading: "Relaxation Retreats in Lake District",
-            text: "Indulge in a peaceful getaway in the picturesque Lake District. Enjoy serene lakes, tranquil walks, luxurious spas, and a relaxing atmosphere perfect for rejuvenation and reflection.",
+            heading: "Relaxation Retreats in Kerala",
+            text: "Indulge in a peaceful getaway in Kerala’s backwaters. Stay in traditional houseboats, enjoy Ayurvedic treatments, and explore the lush green landscapes of 'God’s Own Country'.",
         },
         {
-            heading: "Family Vacations in the Cotswolds",
-            text: "Plan a memorable family vacation in the Cotswolds. Explore charming villages, scenic countryside, and family-friendly activities including outdoor adventures, historical sites, and fun farm experiences.",
+            heading: "Family Vacations in Jaipur",
+            text: "Discover the royal heritage of Jaipur. Visit Amer Fort, Hawa Mahal, City Palace, and experience the colorful bazaars, elephant rides, and traditional Rajasthani culture.",
         },
         {
-            heading: "Group Tours in Oxford and Cambridge",
-            text: "Our group tours of Oxford and Cambridge cater to a wide range of interests. Explore these historic university towns, with tours of the prestigious colleges, beautiful gardens, and cultural sites.",
+            heading: "Spiritual Journeys in Varanasi",
+            text: "Experience the spiritual aura of Varanasi, the city of temples and ghats. Witness the mesmerizing Ganga Aarti, take a boat ride on the sacred river, and explore ancient temples.",
         },
         {
-            heading: "Wildlife Safaris in Scotland",
-            text: "Experience the wild beauty of Scotland’s wildlife with our safaris. Explore nature reserves, spot rare wildlife, and take in the stunning landscapes of the Scottish wilderness.",
+            heading: "Wildlife Safaris in Ranthambore",
+            text: "Get up close with nature at Ranthambore National Park. Spot majestic Bengal tigers, leopards, and other wildlife in one of India's most famous national parks.",
         },
         {
-            heading: "Adventure Tours in the Peak District",
-            text: "Embark on thrilling adventures in the Peak District. From rock climbing and hiking to cycling and caving, the Peak District offers a wide range of outdoor activities for adventure enthusiasts.",
+            heading: "Trekking Adventures in Himachal Pradesh",
+            text: "Embark on thrilling treks in Himachal Pradesh, from the Triund trek in Dharamshala to the Hampta Pass trek. Enjoy stunning views, alpine forests, and adventure-filled experiences.",
         },
         {
-            heading: "Honeymoon Destinations in Edinburgh",
-            text: "Plan a romantic getaway to Edinburgh, Scotland’s capital. Stay in luxurious hotels, enjoy intimate dinners, and explore the beautiful city full of history, culture, and stunning landscapes.",
+            heading: "Romantic Honeymoons in Udaipur",
+            text: "Plan a dreamy honeymoon in the ‘City of Lakes’. Stay in luxurious palace hotels, take a boat ride on Lake Pichola, and explore the royal charm of Udaipur.",
         },
         {
-            heading: "Culinary Adventures in London",
-            text: "Savor the rich flavors of British cuisine with our culinary tours in London. Explore world-renowned markets, sample traditional dishes, and enjoy fine dining experiences across the city.",
+            heading: "Culinary Adventures in Mumbai",
+            text: "Savor the flavors of Mumbai’s street food, from vada pav to pav bhaji. Explore high-end restaurants, Irani cafés, and bustling markets for an unforgettable food experience.",
         },
         {
-            heading: "Historical Tours in York",
-            text: "Step back in time with a historical tour of York. Explore medieval walls, ancient Roman ruins, and iconic landmarks like York Minster. Experience the rich history of this charming city.",
+            heading: "Historical Tours in Agra",
+            text: "Step back in time with a visit to Agra. Marvel at the breathtaking Taj Mahal, explore the grand Agra Fort, and experience the Mughal heritage of this iconic city.",
         },
         {
-            heading: "Beach Retreats in Devon",
-            text: "Relax on the stunning beaches of Devon, renowned for its natural beauty and tranquil environment. Enjoy the perfect beach getaway with scenic views, coastal walks, and peaceful retreats.",
+            heading: "Beach Retreats in Andaman & Nicobar",
+            text: "Relax on the pristine beaches of the Andaman & Nicobar Islands. Enjoy snorkeling, scuba diving, and serene sunset views in this tropical paradise.",
         },
         {
-            heading: "Cultural Festivals in Edinburgh",
-            text: "Experience the lively cultural scene of Edinburgh with our cultural festival tours. Join in the excitement of the Edinburgh Festival Fringe, the world’s largest arts festival, along with other events celebrating music, theater, and the arts.",
+            heading: "Cultural Festivals in Kolkata",
+            text: "Experience the vibrant culture of Kolkata during Durga Puja. Witness grand pandals, cultural performances, and traditional Bengali cuisine in this lively festival city.",
         }
     ];
+
 
     const PrivacyPolicy = [
         {
             heading: "Privacy Policy",
-            text: "We respect your privacy and are committed to ensuring that your personal data is protected. We do not collect or store any personal information through our website. Our primary goal is to provide you with detailed, informative content related to travel destinations. Additionally, we share affiliate links to hotels, which help us maintain the site and continue providing free content. Please note, when you click on these affiliate links, we may earn a commission, but this does not affect the price you pay for any bookings."
+            text: "We respect your privacy and are committed to protecting your personal data. Our website provides informative content about travel destinations in Uttarakhand, including guides, tips, and recommendations. We do not collect or store personal information directly. However, we may use affiliate links to travel services to help support our website while ensuring a seamless experience for our users."
         },
         {
             heading: "What Information We Collect",
-            text: "We do not collect or store any personally identifiable information on our website. We only provide travel guides, articles, and affiliate links to help you book accommodations or plan your travels."
+            text: "We do not collect any personally identifiable information. Our website focuses on providing detailed travel information about Uttarakhand, including destinations like Nainital, Mussoorie, Rishikesh, and Jim Corbett. Any bookings or purchases you make through third-party links are subject to their respective privacy policies."
         },
         {
             heading: "Affiliate Links",
-            text: "We may provide affiliate links to hotels and other travel-related services. These links do not collect personal information but help us maintain our website and provide high-quality content for our users. When you book through these links, we may earn a commission at no extra cost to you."
+            text: "To support our website, we may provide affiliate links to hotels, travel agencies, and tour services related to Uttarakhand. These links help us maintain the site without affecting the price you pay. When you book through these links, we may earn a commission at no extra cost to you."
         },
         {
             heading: "Cookies and Tracking",
-            text: "Our website may use cookies to enhance your browsing experience, provide personalized content, and analyze traffic. However, no personal information is stored through cookies, and we do not use any tracking technologies to collect personally identifiable information."
+            text: "Our website may use cookies to improve user experience, analyze website traffic, and provide personalized content. However, we do not collect or store personal data through cookies, nor do we use tracking technologies for personally identifiable information."
         },
         {
             heading: "Third-Party Links",
-            text: "Our website may contain links to third-party websites. These websites have their own privacy policies, and we are not responsible for their content or how they handle your personal data. Please review their privacy policies before providing any personal information."
+            text: "Our website may contain links to third-party websites, such as travel agencies, hotel booking platforms, and tour operators. Each of these sites has its own privacy policy, and we encourage users to review them before sharing any personal information."
+        },
+        {
+            heading: "Security of Your Data",
+            text: "While we do not collect personal data, we ensure that any third-party services we recommend follow secure practices to protect user information. However, we cannot be responsible for the policies and security measures of external websites."
         },
         {
             heading: "Changes to Privacy Policy",
-            text: "We reserve the right to update or modify this privacy policy at any time. Any changes will be reflected on this page. We encourage you to review this policy periodically to stay informed about how we are protecting your privacy."
+            text: "We may update this privacy policy from time to time to reflect changes in our practices or legal requirements. Any updates will be posted on this page. We encourage you to check this policy periodically for the latest information on our privacy practices."
         }
     ];
 
-    // const destinationData = [
-    //     {
-    //         heading: "Explore the Himalayas",
-    //         text: "Discover breathtaking views and adventure with our Himalayan tour packages. Experience the beauty of snow-capped peaks, serene lakes, and picturesque villages.",
-    //     },
-    //     {
-    //         heading: "Beach Getaways",
-    //         text: "Relax on the sun-kissed beaches of Goa and the Andaman Islands. Enjoy water sports, beach parties, and a laid-back atmosphere with our exclusive beach vacation packages.",
-    //     },
-    //     {
-    //         heading: "Cultural Tours",
-    //         text: "Immerse yourself in India's rich history and culture with our guided tours to historical sites, temples, and cultural festivals. Discover the heritage of incredible India.",
-    //     },
-    //     {
-    //         heading: "Adventure Packages",
-    //         text: "For the thrill-seekers, we offer adventure packages including trekking, wildlife safaris, and more. Experience the thrill of exploring new terrains and challenging activities.",
-    //     },
-    //     {
-    //         heading: "Relaxation Retreats",
-    //         text: "Indulge in a relaxing getaway with our luxurious retreats. Enjoy spa treatments, scenic views, and a peaceful atmosphere for rejuvenation and rejuvenation.",
-    //     },
-    //     {
-    //         heading: "Family Vacations",
-    //         text: "Plan a family vacation with our family-friendly packages. Enjoy family-friendly activities, activities for the whole family, and a family-friendly atmosphere.",
-    //     },
-    //     {
-    //         heading: "Group Tours",
-    //         text: "Group tours cater to a wide range of interests and preferences. Whether you're a group of friends, a business team, or a family, we have the perfect tour for you.",
-    //     },
-    //     {
-    //         heading: "Wildlife Safaris",
-    //         text: "Experience the beauty of nature with our wildlife safaris. Explore endangered species, wildlife reserves, and wildlife safaris for an unforgettable wildlife adventure.",
-    //     },
-    //     {
-    //         heading: "Adventure Tours",
-    //         text: "Embark on thrilling adventures with our adventure tours. From mountain climbing to water sports, our tours provide a unique and adventurous experience.",
-    //     },
-    //     {
-    //         heading: "Honeymoon Destinations",
-    //         text: "Plan a romantic getaway with our honeymoon packages. Indulge in luxurious accommodations, romantic activities, and breathtaking views for a memorable honeymoon experience.",
-    //     },
-    //     {
-    //         heading: "Culinary Adventures",
-    //         text: "Experience the culinary wonders of India with our culinary tours. Explore local cuisines, culinary festivals, and culinary adventures for a gastronomic adventure.",
-    //     },
-    //     {
-    //         heading: "Historical Tours",
-    //         text: "Discover the rich history of India with our historical tours. Explore ancient ruins, historical sites, and cultural festivals for a unique historical experience.",
-    //     },
-    //     {
-    //         heading: "Beach Retreats",
-    //         text: "Indulge in the tranquil beauty of the beach with our beach retreats. Enjoy luxurious accommodations, beach parties, and a laid-back atmosphere for a relaxing beach getaway.",
-    //     },
-    //     {
-    //         heading: "Cultural Festivals",
-    //         text: "Experience the vibrant culture of India with our cultural festivals. Join cultural performances, festivals, and cultural events for a captivating cultural adventure.",
-    //     }
-    // ]
     const isPrivacyPloicyPage = props?.isPrivacyPloicyPage || false;
     const isContactUsPage = props?.isContactUsPage || false;
     const data = props?.isPrivacyPloicyPage ? PrivacyPolicy : destinationData;

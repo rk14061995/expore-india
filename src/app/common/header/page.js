@@ -3,32 +3,53 @@ import Link from "next/link";
 export default function Header() {
     const places = [
         {
-            name: 'London',
-            url: 'london.html'
+            name: 'Delhi',
+            url: 'delhi.html'
         },
         {
-            name: 'Edinburgh',
-            url: 'edinburgh.html'
+            name: 'Mumbai',
+            url: 'mumbai.html'
         },
         {
-            name: 'Manchester',
-            url: 'manchester.html'
+            name: 'Jaipur',
+            url: 'jaipur.html'
         },
         {
-            name: 'Bristol',
-            url: 'bristol.html'
+            name: 'Goa',
+            url: 'goa.html'
         },
         {
-            name: 'Liverpool',
-            url: 'liverpool.html'
+            name: 'Kerala',
+            url: 'kerala.html'
+        },
+        {
+            name: 'Varanasi',
+            url: 'varanasi.html'
+        },
+        {
+            name: 'Agra',
+            url: 'agra.html'
+        },
+        {
+            name: 'Bangalore',
+            url: 'bangalore.html'
+        },
+        {
+            name: 'Udaipur',
+            url: 'udaipur.html'
+        },
+        {
+            name: 'Rishikesh',
+            url: 'rishikesh.html'
         }
     ];
+    
     return (
 
         <nav className="navbar navbar-expand-lg navbar-light ">
             <Link href="/" legacyBehavior>
-                <a className="logo" title="Explore UK">
-                    <img src="images/logo.png" alt="Explore UK" />
+                <a className="logo" title="Explore India">
+                    <img src="images/logo.png" alt="Explore India" />
                 </a>
             </Link>
 

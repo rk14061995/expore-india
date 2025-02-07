@@ -23,9 +23,9 @@ export default function AdditionalFooter() {
             }
         }
     };
-    const footerDesc = "Explore the rich history, stunning landmarks, and scenic landscapes of the United Kingdom. From the iconic city of London to the breathtaking beauty of the Scottish Highlands, plan your next adventure with us and discover the best of the UK.";
+    // const footerDesc = "Explore the rich history, stunning landmarks, and scenic landscapes of the United Kingdom. From the iconic city of London to the breathtaking beauty of the Scottish Highlands, plan your next adventure with us and discover the best of the UK.";
 
-    // const footerDesc = "Discover the beauty and diversity of India with our comprehensive guide to the best destinations, historical landmarks, and hidden gems. Plan your next adventure with us.";
+    const footerDesc = "Discover the beauty and diversity of India with our comprehensive guide to the best destinations, historical landmarks, and hidden gems. Plan your next adventure with us.";
     return (
         <div className="footer_section layout_padding">
             <div className="container">

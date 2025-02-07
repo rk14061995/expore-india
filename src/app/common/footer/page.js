@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="col-md-6">
                         <p className="copyright_text">
                             Copyright {currentYear} All Rights Reserved By.
-                            <a href="https://www.exploreuk.online">Explore UK</a>
+                            <a href="https://www.adventureabode.online/">Explore India</a>
                         </p>
                     </div>
                     <div className="col-md-6">

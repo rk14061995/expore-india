@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://www.exploreuk.online/sitemap.xml
+Sitemap: https://www.adventureabode.online/sitemap.xml
